@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <meta charset="UTF-8" />
+    <title>My First Webpage</title>
+  </head>
+  <body>
+    <h1>ROCK PAPER SCISSORS</h1>
+    <div class="buttons-layout">
+      <button class="play-button" id="rock"></button>
+      <button class="play-button" id="paper"></button>
+      <button class="play-button" id="scissors"></button>
+    </div>
+    <span class="score" id="player-score">Player Score: 0</span>
+    <span class="score" id="computer-score">Computer Score: 0</span>
+    <span class="round" id="current-round">Round: 1</span>
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span id="modal-close-icon" class="close">&times;</span>
+        <p id="winner-announce">YOU WIN!!! OR YOU LOSE!!!</p>
+        <button id="reset-game" class="reset">RESET GAME</button>
+      </div>
+    </div>
+  </body>
+  <script src="game.js"></script>
+</html>
